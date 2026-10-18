@@ -3,7 +3,7 @@
 
 An end-to-end medical image data mining, deep learning, and Explainable AI (Grad-CAM) classification pipeline developed in Python and TensorFlow/Keras for **CSE326 (Data Mining and Machine Learning Lab)** at Daffodil International University.
 
-![Methodology and Architecture](architecture_diagram.png)
+![Methodology and Architecture](Architecture_diagram.png)
 
 ## 📌 Project Information
 
@@ -21,7 +21,7 @@ An end-to-end medical image data mining, deep learning, and Explainable AI (Grad
 * **Proposed Dual-Attention CNN:** Integrated a convolutional backbone with parallel **Channel Attention** and **Spatial Attention** mechanisms to fuse local and global tumor features.
 * **Explainable AI (Grad-CAM):** Generated per-class and comparative Grad-CAM activation heatmaps overlaid on brain MRI slices to visually validate clinical tumor localization.
 
-![Sample Training MRI Scans](sample_mri_images.jpg)
+![Sample Training MRI Scans](Sample_mri_images.png)
 
 ## 📊 Experimental Results (Unseen Test Set: 1,311 Scans)
 
@@ -32,11 +32,10 @@ An end-to-end medical image data mining, deep learning, and Explainable AI (Grad
 | **Proposed Dual-Attention CNN** | **98.40%** | **0.0621** | **1,290 / 1,311 correct predictions** (100% precision/recall on *No Tumor*) |
 
 ### Confusion Matrices & Training Convergence
-![Confusion Matrices](confusion_matrices.jpg)
-![Training Curves](training_curves.jpg)
+![Training Curves](training_curves.png)
 
 ## 🔍 Explainable AI (Grad-CAM) Localization
-![Grad-CAM Heatmaps](gradcam_xai_heatmaps.jpg)
+![Grad-CAM Heatmaps](gradcam_XAI_heatmaps.png)
 
 ## 🚀 How to Run
 
